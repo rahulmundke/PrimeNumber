@@ -1,0 +1,6 @@
+C:\Users\rahul\Documents\GitHub\PrimeNumber\PrimeNumber\PrimeNumber\bin\Debug\PrimeNumber.exe.config
+C:\Users\rahul\Documents\GitHub\PrimeNumber\PrimeNumber\PrimeNumber\obj\Debug\PrimeNumber.csprojResolveAssemblyReference.cache
+C:\Users\rahul\Documents\GitHub\PrimeNumber\PrimeNumber\PrimeNumber\bin\Debug\PrimeNumber.exe
+C:\Users\rahul\Documents\GitHub\PrimeNumber\PrimeNumber\PrimeNumber\bin\Debug\PrimeNumber.pdb
+C:\Users\rahul\Documents\GitHub\PrimeNumber\PrimeNumber\PrimeNumber\obj\Debug\PrimeNumber.exe
+C:\Users\rahul\Documents\GitHub\PrimeNumber\PrimeNumber\PrimeNumber\obj\Debug\PrimeNumber.pdb
