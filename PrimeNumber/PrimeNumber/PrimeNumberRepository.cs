@@ -40,9 +40,10 @@ namespace PrimeNumber
 
       public void PersistPrimeRepository()
       {
+         StreamWriter writeFile = null;
          try
          {
-            StreamWriter writeFile = new StreamWriter("PrimeNumber.txt");
+            writeFile = new StreamWriter("PrimeNumber.txt");
 
             for (int i = 0; i < m_PrimeNumberSet.Count; i++)
             {
@@ -52,15 +53,17 @@ namespace PrimeNumber
          }
          catch (Exception e)
          {
+            writeFile.Close();
             Console.WriteLine(e.Message);
          }
       }
 
       public void LoadPrimeRepositoryFromFile()
       {
+         StreamReader readFile = null;
          try
          {
-            StreamReader readFile = new StreamReader("PrimeNumber.txt");
+            readFile = new StreamReader("PrimeNumber.txt");
 
             string readLine = readFile.ReadLine();
             while (readLine != "")
@@ -73,6 +76,7 @@ namespace PrimeNumber
          }
          catch(Exception e)
          {
+            readFile.Close();
             Console.WriteLine(e.Message);
             return;
          }
