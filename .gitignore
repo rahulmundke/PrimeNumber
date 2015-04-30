@@ -46,3 +46,4 @@ Temporary Items
 PrimeNumber/PrimeNumber/obj/Debug/PrimeNumber.csproj.FileListAbsolute.txt
 *.exe
 PrimeNumber/PrimeNumber/bin/Debug/PrimeNumber.exe.config
+*.pdb
