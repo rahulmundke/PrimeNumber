@@ -25,6 +25,8 @@ namespace PrimeNumber
                m_ptrPrimeNumberRepository.AddPrimeNumber(i);
             }
          }
+         // Persiste the repository
+         m_ptrPrimeNumberRepository.PersistPrimeRepository();
       }
 
       private bool IsDivisibleByThree(int number)
