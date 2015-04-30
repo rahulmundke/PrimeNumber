@@ -50,3 +50,5 @@ PrimeNumber/PrimeNumber/bin/Debug/PrimeNumber.exe.config
 *.xml
 PrimeNumber/PrimeNumber/bin/Debug/PrimeNumber.exe.lastcodeanalysissucceeded
 PrimeNumber/PrimeNumber/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+*.exe
+PrimeNumber/PrimeNumber/obj/Debug/PrimeNumber.exe
